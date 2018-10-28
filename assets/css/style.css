@@ -45,7 +45,7 @@ section {
     background-size: cover;
 }
 #section3 {
-    background-color: blue;
+    background: linear-gradient(#515f5f, #637474);
 }
 #section5 {
     background-color: aquamarine;
@@ -55,4 +55,8 @@ section {
     height: 100%;
     margin: auto;
     padding-top: 2%;
+}
+
+.caro {
+    width: 100%;
 }

@@ -44,3 +44,15 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 }
+#section3 {
+    background-color: blue;
+}
+#section5 {
+    background-color: aquamarine;
+}
+#slideshowEx {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    padding-top: 2%;
+}

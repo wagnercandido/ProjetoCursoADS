@@ -69,3 +69,7 @@ section {
 .caro {
     width: 100%;
 }
+.card {
+    margin: auto;
+    display: inline-block;
+}

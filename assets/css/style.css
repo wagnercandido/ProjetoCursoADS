@@ -32,6 +32,7 @@ section {
     width: 100%;
     border-radius: 0px;
     z-index: 1;
+    color: #FFF !important;
 }
 
 .nav-item{
@@ -80,9 +81,9 @@ section {
 #section5 {
     width: 100%;
 }
+
 .interno{
     padding-top: 100px;
-    
 }
 
 #section5 {
@@ -129,6 +130,7 @@ section {
     font-weight: bold;
     height: 50px;
     color: #BBB;
+    background-color: rgba(0, 0, 0, 0.6)
 }
 
 .titulo-contato {
@@ -139,9 +141,16 @@ section {
     padding-top: 20px;
 }
 
-/* Responsible */
+::placeholder {
+    color: #DDD !important;
+}
 
-@media only screen and (max-width: 600px) {
+input, textarea {
+    color: #BBB !important;
+}
+
+/* Responsible */
+@media only screen and (max-width: 1024px) {
     #section1 {
         font-size: 14px;
     }
@@ -162,7 +171,6 @@ section {
         padding-bottom: 30px;
         font-weight: 600;
     }
-
 
     /* Section5 */
     #section5 {

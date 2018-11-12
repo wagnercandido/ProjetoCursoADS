@@ -36,6 +36,13 @@ section {
     background: transparent;
     position: fixed;
 }
+
+#section1 {
+    background-image: url(../images/bgtopo2.jpg);
+    height: 100%;
+    color:#BBB;
+}
+
 #section2{
     background: linear-gradient(#fdcc52,#fdc539);
 }
@@ -63,21 +70,6 @@ section {
     text-align: center;
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
 }
-/*comentando algo pro git aceitar*/
-
-.bg {
-    /* The image used */
-    background-image: url(../images/bgtopo.jpg);
-  
-    /* Half height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 
 
 #section5 {
@@ -92,4 +84,19 @@ section {
 
 .caro {
     width: 100%;
+}
+
+
+
+/* Responsible */
+
+@media only screen and (max-width: 600px) {
+    #section1 {
+        font-size: 14px;
+    }
+
+    #section3 {
+        width: 100%;
+    }
+
 }

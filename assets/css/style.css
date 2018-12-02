@@ -46,7 +46,6 @@ section {
     background: #FFF !important;
 }
 
-
 .sidebar-wrapper{
     background: transparent;
     position: fixed;
@@ -62,7 +61,39 @@ section {
 }
 
 #section2{
-    background: linear-gradient(#fdcc52,#fdc539);
+    background-image: url(../images/bgSec2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color:#BBB;
+    padding-top: 15%;
+}
+
+.cardGrade {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cardGrade,.h2 {
+    font-size: 22px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.btnGrade, .h5 {
+    border: 0px;
+    background: none;
+    font-size: 18px;
+}
+
+.ul, .li {
+    font-size: 16px;
+}
+
+.btnGrade:hover, .btnGrade:active {
+    cursor: none;
+    background: none !important;
+    color: #AAA;
 }
 
 #section3 {
@@ -71,6 +102,10 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.espacamento {
+    padding-top: 20%;
 }
 
 .texto-section3 {
@@ -125,7 +160,7 @@ section {
     background-color: transparent !important;
 }
 
-.btn {
+.btnEnviar {
     float: right;
     width: 100px;
     border-radius: 0px;
@@ -154,8 +189,21 @@ input, textarea {
 
 /* Responsible */
 @media only screen and (max-width: 1024px) {
-    #section1 {
-        font-size: 14px;
+    #section1, .h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #section1, .h4 {
+        font-size: 18px;
+    }
+
+    #section2 {
+        padding-top: 100px;
+    }
+    
+    #section2, .h2 {
+        font-size: 18px;
     }
 
     #section3 {
@@ -163,38 +211,44 @@ input, textarea {
     }
 
     .espacamento {
-        height: 120px;
+        height: 0px;
+        padding-top: 0px;
     }
 
     .texto-section3 {
-        padding-top: 30px;
         background:rgb(255,255,255);  
         background: transparent\9;  
         background:rgba(255,255,255, 0.6);
-        padding-bottom: 30px;
         font-weight: 600;
     }
 
     /* Section5 */
     #section5 {
         text-align: center;
+        padding-top: 0px;
     }
 
     .form-group {
-        padding-top: 10px;
+        padding-top: 0px;
     }
 
-    .btn {
+    .btnEnviar {
         width: 100%;
         height: 50px;
     }
 
     .titulo-contato {
+        padding-top: 0px;
         padding-bottom: 0px;
         display: none;
     }
     
-    .contato {
-        padding-top: 10px;
+    #section5, h3, .h6, .contato {
+        padding-top: 0px;
     }
+
+    .input {
+        height: 30px;
+    }
+
 }

@@ -18,6 +18,7 @@ section {
 }
 
 .navbar{
+    z-index: 99;
     position: fixed;
     width: 100%;
     border-radius: 0px;
@@ -72,4 +73,13 @@ section {
 .card {
     margin: auto;
     display: inline-block;
+    align-content: center;
+    align-self: center;
+}
+
+.card-container {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
